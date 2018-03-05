@@ -1,0 +1,43 @@
+#audio.new .audio .info, #pad_playlist_panel .audio .info, .audios_module .info
+{
+	width: 356px !important;
+}
+
+#audio.new .duration, #pad_playlist_panel .duration, .audios_module .duration, #search_content .duration, .wall_module .post_media .duration
+{
+	max-width: 150px !important;
+	overflow: hidden !important;
+}
+
+#audio.new .audio .title_wrap, #pad_playlist_panel .audio .title_wrap, .audios_module .audio .title_wrap, #search_content .title_wrap, .post_media .audio .title_wrap
+{
+	width: 224px !important;
+}
+
+.wall_module .audio .title_wrap {
+	width: 170px !important;
+}
+
+.wall_module .audio.over .title_wrap {
+	width: 260px !important;
+}
+
+.wall_module.wide_wall_module .audio .title_wrap {
+	width: 370px !important;
+}
+
+.wall_module.wide_wall_module .audio.over .title_wrap {
+	width: 430px !important;
+}
+
+#search_content .audio.over .title_wrap {
+	width: 360px !important;
+}
+
+.audios_module .audio.over .title_wrap {
+	width: 320px !important;
+}
+
+.narrow_column .audio .title_wrap {
+width: 100px !important;
+}

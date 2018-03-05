@@ -1,0 +1,236 @@
+.ads_ad_box2, .ads_ad_box, #ads_left {
+	display: none !important;
+}
+
+.progress-pie-chart {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #E5E5E5;
+  position: relative;
+	display: none;
+}
+
+.progress-pie-chart.gt-50 {
+  background-color: #507299;
+}
+
+.ppc-progress {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - 18px);
+  top: calc(50% - 18px);
+  width: 36px;
+  height: 36px;
+  clip: rect(0, 36px, 36px, 18px);
+}
+.ppc-progress .ppc-progress-fill {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - 18px);
+  top: calc(50% - 18px);
+  width: 36px;
+  height: 36px;
+  clip: rect(0, 18px, 36px, 0);
+  background: #507299;
+  transform: rotate(60deg);
+}
+.gt-50 .ppc-progress {
+  clip: rect(0, 18px, 36px, 0);
+}
+.gt-50 .ppc-progress .ppc-progress-fill {
+  clip: rect(0, 36px, 36px, 18px);
+  background: #E5E5E5;
+}
+
+.ppc-percents {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  left: calc(50% - 29.56522px/2);
+  top: calc(50% - 29.56522px/2);
+  width: 29.56522px;
+  height: 29.56522px;
+  background: #fff;
+  text-align: center;
+  display: table;
+}
+.ppc-percents span {
+  display: block;
+  font-size: 10px;
+  font-weight: bold;
+  color: #507299;
+}
+
+.pcc-percents-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+
+.vkmusic-btn-download-link-new
+{
+	position: relative;
+	top: 0;
+	left: 12px;
+	float: left;
+	display: block;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 2px;
+	outline: 0;
+	border: none;
+	cursor: pointer;
+	font-size: 10px;
+	font-weight: 700;
+	letter-spacing: -.5px;
+	text-align: center;
+	color: #6f98c7;
+	background: transparent;
+	user-select: none;
+	transition: margin-left 150ms ease-out;
+	margin-right: 15px;
+	margin-top: 4px;
+	/*margin-left: 15px !important;*/
+}
+
+.vkmusic-btn-download-link-new:hover {
+	background: #e6edf5;
+}
+
+.audios_module .vkmusic-btn-download-link-new, .audio_page_layout .vkmusic-btn-download-link-new {
+	left: 50px;
+	top: 3px;
+	margin-right: 55px;
+}
+
+.vkmusic-audio-info-new
+{
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-left: 4px;
+    width: 24px;
+    height: 24px;
+    font-size: 8px;
+    line-height: 1.2;
+    white-space: nowrap;
+    overflow: visible;
+    margin-top: 6px
+}
+.vkmusic-bnt-inner {
+	background: transparent url('chrome-extension://__MSG_@@extension_id__/img/download-icon-new.png') no-repeat 50% 50%;
+	background-size: 18px 18px;
+	width: 100%;
+	height: 100%;
+}
+.vkmusic-bnt-inner:hover {
+	background-color: #e6edf5;
+}
+
+.vkmusic-btn-download-all-link
+{
+	padding:2px 0;
+	cursor:pointer;
+	position:relative;
+	min-width:130px;
+	height: 25px;
+}
+
+.vkmusic-btn-download-all-link-inner
+{
+	padding: 4px;
+	border-radius: 3px;
+	font-weight: 500;
+
+}
+.vkmusic-btn-download-all-link-inner:hover
+{
+	background-color: #f2f4f7;
+}
+.vkmusic-btn-download-all-link-text{
+	padding-top: 3px;
+}
+.vkmusic-btn-download-all-img {
+	position: relative;
+	float: left;
+	display: block;
+	width: 25px;
+	height: 20px;
+	line-height: 15px;
+	margin-right: 10px;
+	border-radius: 2px;
+	outline: 0;
+	border: none;
+	cursor: pointer;
+	font-size: 10px;
+	font-weight: 700;
+	letter-spacing: -.5px;
+	text-align: center;
+	color: #6f98c7;
+	background: #e6edf5;
+	user-select: none;
+}
+	.vkmusic-btn-download-all-img .vkmusic-btn-download-all-img-inner
+	{
+		background: #e6edf5 url('chrome-extension://__MSG_@@extension_id__/img/download-icon-new.png') no-repeat 5px 3px;
+		background-size: 15px 15px;
+		width: 25px;
+		height: 20px;
+	}
+
+.current.fl_l .vkmusic-btn-download-link
+{
+	background: url('chrome-extension://__MSG_@@extension_id__/img/download-icon-white.png') no-repeat 0px 0px;
+}
+
+.audio .info, #pad_playlist_panel .audio .area {
+width: auto !important;
+}
+
+.selectedAudio{
+background-color: rgba(10, 0, 255, 0.31);
+border-radius: 5px;
+}
+
+.audio_inline_player {
+	padding-left: 30px;
+}
+.vkmusic-audio-info-new {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.audio_row:hover .vkmusic-audio-info-new {
+	display: none !important;
+}
+
+
+.vkmusic-btn-download-link-new:before {
+    background-color: rgba(0, 0, 0, .04);
+    opacity: .5;
+    transition: all .2s ease-in
+}
+
+.vkmusic-btn-download-link-progress, .vkmusic-btn-download-link-queued {
+	background-color: transparent;
+}
+
+._audio_row:hover .vkmusic-btn-download-link-new, .vkmusic-btn-download-link-new.vkmusic-btn-download-link-new_visible, .vkmusic-btn-download-link-new.vkmd_download_in_progress {
+    margin-left: 0 !important
+}
+
+.audio_row__play_btn{
+	float:left;
+}
+
+.audio_row__duration{
+	float: left;
+}
+.audio_row:hover .audio_row__duration {
+	float: none;
+}

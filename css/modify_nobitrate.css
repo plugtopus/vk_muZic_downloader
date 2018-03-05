@@ -1,0 +1,22 @@
+#audio.new .audio .info
+{
+	width: 356px !important;
+}
+
+#audio.new .audio .title_wrap
+{
+	width: 294px !important;
+}
+.audios_module .audio .title_wrap
+{
+	width:319px !important;
+}
+
+#search_table .audio .info .title_wrap
+{
+	width: 355px !important;
+}
+
+.narrow_column .audio .title_wrap {
+width: 100px !important;
+}

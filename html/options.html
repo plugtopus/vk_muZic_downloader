@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../core/jquery-3.1.1.min.js"></script>
+    <script src="../core/options.js"></script>
+</head>
+<body>
+<div style="height: 30px;">
+    <div id="result"></div>
+</div>
+<form method="post">
+    Настройки информации о треке:<br />
+    <input type="radio" name="bitrate_info" value="off">Скрыть битрейт и размер<br />
+    <input type="radio" name="bitrate_info" value="bitrate_only">Показать только битрейт<br />
+    <input type="radio" name="bitrate_info" value="size_only">Показать только размер<br />
+    <input type="radio" name="bitrate_info" value="bitrate_size">Показать битрейт и размер<br />
+    <br/>
+    Опция "Скачать все"(обновите страницу после включения/выключения):<br />
+    <input type="radio" name="download_all_button" value="0">Выключить<br />
+    <input type="radio" name="download_all_button" value="1">Включить<br />
+    <hr/>
+</form>
+</body>
+</html>
